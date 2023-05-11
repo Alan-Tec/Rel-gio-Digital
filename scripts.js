@@ -9,5 +9,7 @@ const relogio = setInterval(function() {
     let s = dateToday.getSeconds();
 
     horas.textContent = hr;
+    minutos.textContent = min;
+    segundos.textContent = s;
 
 })
